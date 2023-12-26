@@ -25,7 +25,7 @@ class FileRequest extends FormRequest
     {
         return [
             'description' => 'max:500',
-            'path' => 'max:50000|image|
+            'path' => 'max:5000|image|
             mimes:xls,xlsx,doc,docx,jpg,jpeg,png,gif,tiff,psd,pdf,eps,ai,indd,raw'
         ];
     }
